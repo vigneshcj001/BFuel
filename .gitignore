@@ -1,14 +1,28 @@
-# Ignore node_modules (dependencies)
+# Dependency directory
 node_modules/
 
-# Ignore dist folder (build outputs)
+# Build outputs
 dist/
 
-# Ignore Parcel cache
+# Parcel cache
 .parcel-cache/
 
-# Ignore .cache folder (used by various build tools)
+# Editor history or temp files
+.history/
+
+# Tooling cache
 .cache/
 
-# Optional: ignore local history or temp files
-.history/
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDEs (optional)
+.vscode/
+.idea/
