@@ -5,7 +5,7 @@ import { FaPaperPlane } from "react-icons/fa";
 const quickLinks = [
   { name: "Home", path: "/" },
   { name: "Methodology", path: "/methodology" },
-  { name: "Predictions", path: "/predictions" },
+  { name: "Prediction", path: "/prediction" },
   { name: "About", path: "/about" },
   { name: "Contact", path: "/contact" },
 ];
@@ -65,18 +65,16 @@ const Footer = () => (
         </ul>
       </div>
 
-      {/* Newsletter Section */}
+      {/* Contact Section (was Newsletter) */}
       <div>
-        <h3 className="text-xl font-semibold mb-4 text-teal-300">
-          Stay Updated
-        </h3>
+        <h3 className="text-xl font-semibold mb-4 text-teal-300">Contact Us</h3>
         <p className="text-gray-400 mb-4">
-          Subscribe to our newsletter for the latest updates.
+          Have questions? Reach out to us directly via email.
         </p>
         <form
           className="flex items-center bg-gray-800 rounded-md p-1 border border-gray-700 focus-within:border-teal-400 transition-colors"
           onSubmit={(e) => e.preventDefault()}
-          aria-label="Newsletter Subscription Form"
+          aria-label="Contact Form"
         >
           <input
             type="email"
@@ -88,7 +86,7 @@ const Footer = () => (
           <button
             type="submit"
             className="bg-teal-500 hover:bg-teal-600 rounded-md p-3 transition-colors"
-            aria-label="Subscribe"
+            aria-label="Send Message"
           >
             <FaPaperPlane />
           </button>

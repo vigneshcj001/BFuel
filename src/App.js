@@ -15,6 +15,7 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Home from "./Pages/Home";
 import MaterialsAndMethodsPage from "./Pages/MaterialsAndMethodsPage/MaterialsAndMethodsPage";
+import Prediction from "./Pages/Prediction";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 
@@ -27,6 +28,7 @@ const AnimatedRoutes = () => {
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
         <Route path="/methodology" element={<MaterialsAndMethodsPage />} />
+        <Route path="/prediction" element={<Prediction />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

@@ -4,7 +4,7 @@ import { NavLink } from "react-router";
 const navLinks = [
   { name: "Home", path: "/" },
   { name: "Methodology", path: "/methodology" },
-  { name: "Predictions", path: "/predictions" },
+  { name: "Prediction", path: "/prediction" },
   { name: "About", path: "/about" },
   { name: "Contact", path: "/contact" },
 

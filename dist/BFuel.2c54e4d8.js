@@ -693,6 +693,8 @@ var _home = require("./Pages/Home");
 var _homeDefault = parcelHelpers.interopDefault(_home);
 var _materialsAndMethodsPage = require("./Pages/MaterialsAndMethodsPage/MaterialsAndMethodsPage");
 var _materialsAndMethodsPageDefault = parcelHelpers.interopDefault(_materialsAndMethodsPage);
+var _prediction = require("./Pages/Prediction");
+var _predictionDefault = parcelHelpers.interopDefault(_prediction);
 var _about = require("./Pages/About");
 var _aboutDefault = parcelHelpers.interopDefault(_about);
 var _contact = require("./Pages/Contact");
@@ -711,20 +713,8 @@ const AnimatedRoutes = ()=>{
                     path: "/",
                     element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {}, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 28,
-                        columnNumber: 34
-                    }, void 0)
-                }, void 0, false, {
-                    fileName: "src/App.js",
-                    lineNumber: 28,
-                    columnNumber: 9
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Route), {
-                    path: "/methodology",
-                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _materialsAndMethodsPageDefault.default), {}, void 0, false, {
-                        fileName: "src/App.js",
                         lineNumber: 29,
-                        columnNumber: 45
+                        columnNumber: 34
                     }, void 0)
                 }, void 0, false, {
                     fileName: "src/App.js",
@@ -732,11 +722,11 @@ const AnimatedRoutes = ()=>{
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Route), {
-                    path: "/about",
-                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
+                    path: "/methodology",
+                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _materialsAndMethodsPageDefault.default), {}, void 0, false, {
                         fileName: "src/App.js",
                         lineNumber: 30,
-                        columnNumber: 39
+                        columnNumber: 45
                     }, void 0)
                 }, void 0, false, {
                     fileName: "src/App.js",
@@ -744,26 +734,50 @@ const AnimatedRoutes = ()=>{
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Route), {
-                    path: "/contact",
-                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
+                    path: "/prediction",
+                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _predictionDefault.default), {}, void 0, false, {
                         fileName: "src/App.js",
                         lineNumber: 31,
-                        columnNumber: 41
+                        columnNumber: 44
                     }, void 0)
                 }, void 0, false, {
                     fileName: "src/App.js",
                     lineNumber: 31,
                     columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Route), {
+                    path: "/about",
+                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 32,
+                        columnNumber: 39
+                    }, void 0)
+                }, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 32,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Route), {
+                    path: "/contact",
+                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
+                        fileName: "src/App.js",
+                        lineNumber: 33,
+                        columnNumber: 41
+                    }, void 0)
+                }, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 33,
+                    columnNumber: 9
                 }, undefined)
             ]
         }, location.pathname, true, {
             fileName: "src/App.js",
-            lineNumber: 27,
+            lineNumber: 28,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/App.js",
-        lineNumber: 26,
+        lineNumber: 27,
         columnNumber: 5
     }, undefined);
 };
@@ -782,40 +796,40 @@ const App = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Browse
                     className: "absolute top-0 left-0 w-full h-full bg-gradient-to-br from-gray-900 via-gray-900 to-teal-900/40 -z-10"
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 42,
+                    lineNumber: 44,
                     columnNumber: 7
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 43,
+                    lineNumber: 45,
                     columnNumber: 7
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
                     className: "flex-grow",
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(AnimatedRoutes, {}, void 0, false, {
                         fileName: "src/App.js",
-                        lineNumber: 45,
+                        lineNumber: 47,
                         columnNumber: 9
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 44,
+                    lineNumber: 46,
                     columnNumber: 7
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
-                    lineNumber: 47,
+                    lineNumber: 49,
                     columnNumber: 7
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/App.js",
-            lineNumber: 40,
+            lineNumber: 42,
             columnNumber: 5
         }, undefined)
     }, void 0, false, {
         fileName: "src/App.js",
-        lineNumber: 39,
+        lineNumber: 41,
         columnNumber: 3
     }, undefined);
 _c1 = App;
@@ -824,12 +838,12 @@ const root = (0, _clientDefault.default).createRoot(document.getElementById("roo
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactDefault.default).StrictMode, {
     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
         fileName: "src/App.js",
-        lineNumber: 56,
+        lineNumber: 58,
         columnNumber: 5
     }, undefined)
 }, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 55,
+    lineNumber: 57,
     columnNumber: 3
 }, undefined));
 var _c, _c1;
@@ -841,7 +855,7 @@ $RefreshReg$(_c1, "App");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","react-router":"2jawN","framer-motion":"6Fwkt","../index.css":"giGSC","./Components/Header":"50ygr","./Components/Footer":"jC2yh","./Pages/Home":"asmbu","./Pages/MaterialsAndMethodsPage/MaterialsAndMethodsPage":"iIQh4","./Pages/About":"R4gZJ","./Pages/Contact":"cKmtB","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"dVPUn":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-dom/client":"hrvwu","react-router":"2jawN","framer-motion":"6Fwkt","../index.css":"giGSC","./Components/Header":"50ygr","./Components/Footer":"jC2yh","./Pages/Home":"asmbu","./Pages/MaterialsAndMethodsPage/MaterialsAndMethodsPage":"iIQh4","./Pages/About":"R4gZJ","./Pages/Contact":"cKmtB","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi","./Pages/Prediction":"gC473"}],"dVPUn":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -37140,8 +37154,8 @@ const navLinks = [
         path: "/methodology"
     },
     {
-        name: "Predictions",
-        path: "/predictions"
+        name: "Prediction",
+        path: "/prediction"
     },
     {
         name: "About",
@@ -39524,8 +39538,8 @@ const quickLinks = [
         path: "/methodology"
     },
     {
-        name: "Predictions",
-        path: "/predictions"
+        name: "Prediction",
+        path: "/prediction"
     },
     {
         name: "About",
@@ -39668,7 +39682,7 @@ const Footer = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                                 className: "text-xl font-semibold mb-4 text-teal-300",
-                                children: "Stay Updated"
+                                children: "Contact Us"
                             }, void 0, false, {
                                 fileName: "src/Components/Footer.js",
                                 lineNumber: 70,
@@ -39676,16 +39690,16 @@ const Footer = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 className: "text-gray-400 mb-4",
-                                children: "Subscribe to our newsletter for the latest updates."
+                                children: "Have questions? Reach out to us directly via email."
                             }, void 0, false, {
                                 fileName: "src/Components/Footer.js",
-                                lineNumber: 73,
+                                lineNumber: 71,
                                 columnNumber: 9
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
                                 className: "flex items-center bg-gray-800 rounded-md p-1 border border-gray-700 focus-within:border-teal-400 transition-colors",
                                 onSubmit: (e)=>e.preventDefault(),
-                                "aria-label": "Newsletter Subscription Form",
+                                "aria-label": "Contact Form",
                                 children: [
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                                         type: "email",
@@ -39695,27 +39709,27 @@ const Footer = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
                                         required: true
                                     }, void 0, false, {
                                         fileName: "src/Components/Footer.js",
-                                        lineNumber: 81,
+                                        lineNumber: 79,
                                         columnNumber: 11
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                                         type: "submit",
                                         className: "bg-teal-500 hover:bg-teal-600 rounded-md p-3 transition-colors",
-                                        "aria-label": "Subscribe",
+                                        "aria-label": "Send Message",
                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _fa.FaPaperPlane), {}, void 0, false, {
                                             fileName: "src/Components/Footer.js",
-                                            lineNumber: 93,
+                                            lineNumber: 91,
                                             columnNumber: 13
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/Components/Footer.js",
-                                        lineNumber: 88,
+                                        lineNumber: 86,
                                         columnNumber: 11
                                     }, undefined)
                                 ]
                             }, void 0, true, {
                                 fileName: "src/Components/Footer.js",
-                                lineNumber: 76,
+                                lineNumber: 74,
                                 columnNumber: 9
                             }, undefined)
                         ]
@@ -39734,7 +39748,7 @@ const Footer = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
                 className: "my-8 border-gray-700"
             }, void 0, false, {
                 fileName: "src/Components/Footer.js",
-                lineNumber: 100,
+                lineNumber: 98,
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -39746,7 +39760,7 @@ const Footer = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("footer", {
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Footer.js",
-                lineNumber: 103,
+                lineNumber: 101,
                 columnNumber: 5
             }, undefined)
         ]
@@ -69285,23 +69299,42 @@ const Home = ()=>{
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _framerMotion.motion).div, {
                         custom: 2,
                         variants: variants,
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
-                            to: "/methodology",
-                            className: "mt-10 inline-flex items-center gap-3 px-8 py-4 bg-teal-500 text-white font-bold text-lg rounded-full shadow-lg shadow-teal-500/30 hover:bg-teal-600 hover:scale-105 transition-transform duration-300",
-                            children: [
-                                "Explore Our Research ",
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _fa.FaArrowRight), {}, void 0, false, {
-                                    fileName: "src/Pages/Home.js",
-                                    lineNumber: 78,
-                                    columnNumber: 34
-                                }, undefined)
-                            ]
-                        }, void 0, true, {
-                            fileName: "src/Pages/Home.js",
-                            lineNumber: 74,
-                            columnNumber: 11
-                        }, undefined)
-                    }, void 0, false, {
+                        className: "mt-10 flex flex-col md:flex-row items-center justify-center gap-6",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
+                                to: "/methodology",
+                                className: "inline-flex items-center gap-3 px-8 py-4 bg-teal-500 text-white font-bold text-lg rounded-full shadow-lg shadow-teal-500/30 hover:bg-teal-600 hover:scale-105 transition-transform duration-300",
+                                children: [
+                                    "Explore Our Research ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _fa.FaArrowRight), {}, void 0, false, {
+                                        fileName: "src/Pages/Home.js",
+                                        lineNumber: 82,
+                                        columnNumber: 34
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Pages/Home.js",
+                                lineNumber: 78,
+                                columnNumber: 11
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Link), {
+                                to: "/prediction",
+                                className: "inline-flex items-center gap-3 px-8 py-4 bg-cyan-500 text-white font-bold text-lg rounded-full shadow-lg shadow-cyan-500/30 hover:bg-cyan-600 hover:scale-105 transition-transform duration-300",
+                                children: [
+                                    "View Prediction ",
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _fa.FaArrowRight), {}, void 0, false, {
+                                        fileName: "src/Pages/Home.js",
+                                        lineNumber: 89,
+                                        columnNumber: 29
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Pages/Home.js",
+                                lineNumber: 85,
+                                columnNumber: 11
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
                         fileName: "src/Pages/Home.js",
                         lineNumber: 73,
                         columnNumber: 9
@@ -70476,6 +70509,44 @@ $RefreshReg$(_c2, "%default%");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-icons/fa":"dS1yL","framer-motion":"6Fwkt","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["frqA7","hh6uc"], "hh6uc", "parcelRequire8e66", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","react-icons/fa":"dS1yL","framer-motion":"6Fwkt","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"gC473":[function(require,module,exports,__globalThis) {
+var $parcel$ReactRefreshHelpers$035b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+$parcel$ReactRefreshHelpers$035b.init();
+var prevRefreshReg = globalThis.$RefreshReg$;
+var prevRefreshSig = globalThis.$RefreshSig$;
+$parcel$ReactRefreshHelpers$035b.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+const Prediction = ()=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
+        className: "relative overflow-hidden min-h-screen flex items-center justify-center bg-black text-white px-6",
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+            className: "text-5xl font-extrabold",
+            children: "Prediction Page"
+        }, void 0, false, {
+            fileName: "src/Pages/Prediction.js",
+            lineNumber: 4,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
+        fileName: "src/Pages/Prediction.js",
+        lineNumber: 3,
+        columnNumber: 5
+    }, undefined);
+};
+_c = Prediction;
+exports.default = Prediction;
+var _c;
+$RefreshReg$(_c, "Prediction");
+
+  $parcel$ReactRefreshHelpers$035b.postlude(module);
+} finally {
+  globalThis.$RefreshReg$ = prevRefreshReg;
+  globalThis.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"dVPUn","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}]},["frqA7","hh6uc"], "hh6uc", "parcelRequire8e66", {}, null, null, "http://localhost:1234")
 
 //# sourceMappingURL=BFuel.2c54e4d8.js.map

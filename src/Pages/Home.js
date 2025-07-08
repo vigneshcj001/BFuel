@@ -69,13 +69,24 @@ const Home = () => {
           nanoparticle catalysis and predictive machine learning.
         </motion.p>
 
-        {/* Button */}
-        <motion.div custom={2} variants={variants}>
+        {/* Buttons */}
+        <motion.div
+          custom={2}
+          variants={variants}
+          className="mt-10 flex flex-col md:flex-row items-center justify-center gap-6"
+        >
           <Link
             to="/methodology"
-            className="mt-10 inline-flex items-center gap-3 px-8 py-4 bg-teal-500 text-white font-bold text-lg rounded-full shadow-lg shadow-teal-500/30 hover:bg-teal-600 hover:scale-105 transition-transform duration-300"
+            className="inline-flex items-center gap-3 px-8 py-4 bg-teal-500 text-white font-bold text-lg rounded-full shadow-lg shadow-teal-500/30 hover:bg-teal-600 hover:scale-105 transition-transform duration-300"
           >
             Explore Our Research <FaArrowRight />
+          </Link>
+
+          <Link
+            to="/prediction"
+            className="inline-flex items-center gap-3 px-8 py-4 bg-cyan-500 text-white font-bold text-lg rounded-full shadow-lg shadow-cyan-500/30 hover:bg-cyan-600 hover:scale-105 transition-transform duration-300"
+          >
+            View Prediction <FaArrowRight />
           </Link>
         </motion.div>
       </motion.div>
